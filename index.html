@@ -1,0 +1,264 @@
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+    <meta name="Wencan Zhang" content="">
+    <meta name="Wencan Zhang" content="">
+
+    <title>Wencan Zhang</title>
+
+    <!-- Nunito Sans font -->
+    <link href="https://fonts.googleapis.com/css?family=Nunito+Sans" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Patrick+Hand+SC" rel="stylesheet">
+    <!-- Bootstrap core CSS -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <!-- Bootstrap theme -->
+    <link href="css/bootstrap-theme.min.css" rel="stylesheet">
+    <!-- font awesome icons -->
+    <link href="css/icon.css" rel="stylesheet">
+    <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
+    <link href="css/ie10-viewport-bug-workaround.css" rel="stylesheet">
+    <!-- Overriding personal style -->
+    <link href="css/style.css" rel="stylesheet">   
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"> 
+    <script type="text/javascript">
+        function visibility_on(id) {
+            var e = document.getElementById(id+"_text");
+            if(e.style.display == 'none')
+                e.style.display = 'block';
+            var e = document.getElementById(id+"_img");
+            if(e.style.display == 'none')
+                e.style.display = 'block';
+        }
+        function visibility_off(id) {
+            var e = document.getElementById(id+"_text");
+            if(e.style.display == 'block')
+                e.style.display = 'none';
+            var e = document.getElementById(id+"_img");
+            if(e.style.display == 'block')
+                e.style.display = 'none';
+        }
+        function toggle_visibility(id) {
+            var e = document.getElementById(id+"_text");
+            if(e.style.display == 'inline')
+                e.style.display = 'block';
+            else
+                e.style.display = 'inline';
+            var e = document.getElementById(id+"_img");
+            if(e.style.display == 'inline')
+                e.style.display = 'block';
+            else
+                e.style.display = 'inline';
+        }
+        function toggle_vis(id) {
+            var e = document.getElementById(id);
+            if (e.style.display == 'none')
+                e.style.display = 'inline';
+            else
+                e.style.display = 'none';
+        }
+    </script>
+    <style>
+	  	ul.no-bullets {
+  				list-style-type: none;
+  				margin: 0;
+  				padding: 0;
+			       }
+    </style>
+  </head>
+
+  <body>
+    <!-- Fixed navbar -->
+    <nav class="navbar navbar-default navbar-fixed-top">
+      <div class="container">
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <a class="navbar-brand" href="#">Wencan Zhang</a>
+        </div>
+        <div id="navbar" class="navbar-collapse collapse">
+          <ul class="nav navbar-nav">
+            <li><a href="#">Home</a></li>	    
+            <li><a href="#research">Research</a></li>
+	    	<!-- <li><a href="#students">Advising</a></li> -->
+            <li><a href="#teaching">Teaching</a></li>
+            <!--<li><a href="#papers">Service</a></li>-->
+          </ul>
+        </div><!--/.nav-collapse -->
+      </div>
+    </nav>
+
+    <div class="container theme-showcase" role="main">
+      <div class="row">
+	<div class="col-md-3">
+		<h3>Wencan Zhang</h3>
+		<img class="img-thumbnail" src="images/wencan.jpg" alt="" style="width:50%; margin-left:20px;"/>
+		<br /><br />
+		<h4>Contact</h4>
+		
+        <font size="3">
+        <ul class="author__urls social-icons" style="list-style-type:none; margin-left:-40px;">
+        
+        <li >    
+            <a href="https://www.google.com/maps/place/NUS+School+of+Computing/@1.2948528,103.7714891,17z/data=!4m5!3m4!1s0x31da1af8c7e4e75b:0x436963e22924394a!8m2!3d1.2948528!4d103.7736778" ><i class="fa fa-fw fa-map-marker" aria-hidden="true"></i></a> COM1, 13 Computing Dr
+        </li>
+        <li >
+            <a href="mailto:wencanz@u.nus.edu" ><i class="fa fa-fw fa-envelope" aria-hidden="true"></i></a> Email
+        </li>
+        <li >
+            <a href="https://scholar.google.com/citations?user=cmH-ZC8AAAAJ&hl=en" ><i class="fa fa-fw fa-graduation-cap" aria-hidden="true"></i></a> Google Scholar  
+        </li>
+        <li >
+            <a href="https://github.com/wencanz" ><i class="fa fa-fw fa-github-square" aria-hidden="true"></i></a> Github
+        </li>
+        </ul>
+ 	</div>
+	
+	<div class="col-md-6">
+	  <br /><br />
+	  <h3></h3>
+	  <font size="3">
+
+		<p> Hi! I am a Ph.D. candidate at the department of computer science, National University of Singapore. Now I am a member of the <a href="https://ubiquitous.comp.nus.edu.sg/"> NUS UbiComp Lab </a> under Prof. Brian Lim’s supervision.
+		</p> 
+		<p> My research aims at improving the interpretability of complex machine learning models by considering human factors. The broader research interests include <font color="#5b7ab8"> explainable artificial intelligence</font>, <font color="#5b7ab8"> data privacy</font>, <font color="#5b7ab8">robust machine learning</font>.
+		</p>
+		<p>
+		For more details about me and my research, please check out my <a href="./Wencan - CV.pdf">CV</a>. <!-- and here is a <a href="./one-pager.pdf">one-pager</a> about my research. -->
+		</p>
+		</font>
+	</div>
+
+	<!-- <font size="3"> -->
+    </div>
+
+    <div class="page-header" id="research"><h3>Research</h3></div>
+
+    <h4>Publications</h4>   
+	<font size="3">
+        <table style="border: none; border-collapse: collapse;" border="0">
+        <colgroup>
+            <col style="width:35%">
+            <col style="width:60%">
+        </colgroup>
+        <tbody>
+            <tr style="border-collapse: separate; border-spacing:30em;">
+                <td style="border-collapse: collapse; border: none;">
+                    <img src="images/perceptualFramework.png" width="350">
+                </td>
+                <td style="border-collapse: collapse; border: none;">
+                    Towards Relatable Explainable AI with the Perceptual Process <br>
+                    <b> Wencan Zhang</b>, Brian Y. Lim <br>
+                    <i>Conference on Human Factors in Computing Systems (CHI), 2022.</i> <br>
+                    <a href="https://arxiv.org/pdf/2112.14005.pdf" class="btn btn-xs btn-default">pdf</a>
+                </td>
+            </tr>
+
+            <tr style="border-collapse: separate; border-spacing:30em;">
+                <td style="border-collapse: collapse; border: none;">
+                    <img src="images/debiasedCAM.png" width="350">
+                </td>
+                <td style="border-collapse: collapse; border: none;">
+                    Debiased-CAM to mitigate image perturbations with faithful visual explanations of machine learning <br>
+                    Wencan Zhang, Mariella Dimiccoli, Brian Y. Lim <br>
+                    <i>Conference on Human Factors in Computing Systems (CHI), 2022.</i> <br>
+                    <a href="https://arxiv.org/pdf/2012.05567.pdf" class="btn btn-xs btn-default">pdf</a>
+                </td>
+            </tr> 
+
+            <tr style="border-collapse: separate; border-spacing:30em;">
+                <td style="border-collapse: collapse; border: none;">
+                    <img src="images/modelInversion.png" width="350">
+                </td>
+                <td style="border-collapse: collapse; border: none;">
+                    Exploiting Explanations for Model Inversion Attacks <br>
+                    Zhao, Xuejun, Wencan Zhang, Xiaokui Xiao, and Brian Lim. <br>
+                    <i>International Conference on Computer Vision (ICCV), 2021.</i>  <br>
+                    <a href="https://openaccess.thecvf.com/content/ICCV2021/papers/Zhao_Exploiting_Explanations_for_Model_Inversion_Attacks_ICCV_2021_paper.pdf" class="btn btn-xs btn-default">pdf</a>
+                </td>
+            </tr> 
+
+            <tr style="border-collapse: separate; border-spacing:30em;">
+                <td style="border-collapse: collapse; border: none;">
+                    <img src="images/showOrSurppresFull.png" width="350">
+                </td>
+                <td style="border-collapse: collapse; border: none;">
+                    Show or Suppress? Managing Input Uncertainty in Machine Learning Model Explanations <br>
+                    Danding Wang, Wencan Zhang, Brian Y. Lim <br>
+                    <i>Artificial Intelligence, 2021.</i><br>
+                    <a href="https://arxiv.org/pdf/2101.09498.pdf" class="btn btn-xs btn-default">pdf</a>
+                </td>
+            </tr> 
+
+        </tbody>
+	        <!-- <ul>
+            <li>
+		      <p> Towards Relatable Explainable AI with the Perceptual Process <br />
+			      Wencan Zhang, Brian Y. Lim <br />
+			      <i></i> Conference on Human Factors in Computing Systems (CHI), 2022.<br />
+			      <a href="https://arxiv.org/pdf/2112.14005.pdf" class="btn btn-xs btn-default">pdf</a>
+		      </p>
+	        </li>
+	        <li>
+		      <p> Debiased-CAM to mitigate image perturbations with faithful visual explanations of machine learning <br />
+			      Wencan Zhang, Mariella Dimiccoli, Brian Y. Lim <br />
+			      <i></i> Conference on Human Factors in Computing Systems (CHI), 2022.<br />
+			      <a href="" class="btn btn-xs btn-default">pdf</a>
+		      </p>
+	        </li>
+	        <li>
+		      <p> Exploiting Explanations for Model Inversion Attacks <br />
+			      Zhao, Xuejun, Wencan Zhang, Xiaokui Xiao, and Brian Lim. <br />
+			      <i></i> International Conference on Computer Vision (ICCV), 2021. <br />
+                  <a href="https://openaccess.thecvf.com/content/ICCV2021/papers/Zhao_Exploiting_Explanations_for_Model_Inversion_Attacks_ICCV_2021_paper.pdf" class="btn btn-xs btn-default">pdf</a>
+		      </p>
+	        </li>
+	        <li>
+		      <p> Show or Suppress? Managing Input Uncertainty in Machine Learning Model Explanations <br/>
+			      Danding Wang, Wencan Zhang, Brian Y. Lim <br />
+			      <i></i> Artificial Intelligence, 2021.<br />
+                  <a href="https://arxiv.org/pdf/2101.09498.pdf" class="btn btn-xs btn-default">pdf</a>
+		      </p>
+	        </li>  
+            </ul> -->
+        </table> 
+      </font>
+		
+    <div class="page-header" id="teaching"><h3>Teaching</h3></div>
+     <font size="3">
+	     
+      <ul>
+	<li><p>Phenomena and Theories of Human-Computer Interaction<br />
+	    Teaching Assistant<br />
+	    <i>National University of Singapore</i>, 2019-2022.<br />	 
+	</p></li>
+	<li><p>Software Engineering Project<br />
+	    Teaching Assistant<br />
+	    <i>National University of Singapore</i>, 2019.<br />	 
+	</p></li>
+	</ul>
+	</font>
+    </div> <!-- /container -->
+
+    <footer><p class="copyright">Copyright © 2022 Wencan Zhang. </p></footer>
+<!--     <footer style="text-align: center"> <small>&copy; Copyright © 2022 All rights reserved - Wencan</small> </footer>  -->
+
+    <!-- Bootstrap core JavaScript
+	 ================================================== -->
+    <!-- Placed at the end of the document so the pages load faster -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <script>window.jQuery || document.write('<script src="css/jquery.min.js"><\/script>')</script>
+      <script src="css/bootstrap.min.js"></script>
+      <script src="css/docs.min.js"></script>
+      <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
+      <script src="css/ie10-viewport-bug-workaround.js"></script>
+  </body>
+</html>
